@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(black, white, silver);
+    padding: 40px;
+}
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-top: 15px; 
+    font-weight: bold;
+    text-align: left; 
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[list="profissoes"], 
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-sizing: border-box; 
+}
+
+
+input[type="number"],
+input[type="color"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 10px; 
+}
+
+fieldset {
+    margin-bottom: 25px; 
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left; 
+}
+
+p {
+    margin-top: 0; 
+    font-weight: bold;
+}
+
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background: linear-gradient(#a72d2d, #41a118, #199c7d);
+}
+
+/*professora pra fazer esse css eu pedi uma ajudinha do chatgpt e no notion que a senhora passou pra gente do LIMA, mas foi tudo com base no meu código anterior, eu queria deixar o meu código mais bonitinho*/
+/*eu também tinha esquecido de como fazer os espaçamentos entre os itens, de resto o código foi tudo a mão*/
