@@ -89,6 +89,14 @@ button[type="submit"] {
 button:hover {
     background: linear-gradient(#a72d2d, #41a118, #199c7d);
 }
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #0a0a0a; 
+    color: white;
+    border-radius: 8px;
+}
 
 /*professora pra fazer esse css eu pedi uma ajudinha do chatgpt e no notion que a senhora passou pra gente do LIMA, mas foi tudo com base no meu código anterior, eu queria deixar o meu código mais bonitinho*/
 /*eu também tinha esquecido de como fazer os espaçamentos entre os itens, de resto o código foi tudo a mão*/
