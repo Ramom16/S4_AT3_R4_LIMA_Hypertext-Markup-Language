@@ -13,6 +13,9 @@ form {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
+#Entrada {
+    color: aliceblue;
+}
 
 h1 {
     text-align: center; 
